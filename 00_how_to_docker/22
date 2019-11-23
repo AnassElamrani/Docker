@@ -1,0 +1,2 @@
+docker swarm join --token SWMTKN-1-5olug3mp6lygvazqywzx3orhlepv6mfb7bbhha99i1x37kt7bg-8ngd4oyielzpkfyxe05oh85h0 $(docker-machine ip Char):2377
+#change the token to the new one

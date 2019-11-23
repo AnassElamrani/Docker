@@ -1,0 +1,11 @@
+#Run a debian image
+
+apt update -y
+apt upgrade -y
+apt install vim -y 
+apt install build-essential -y
+apt install git -y
+git clone https://github.com/AnassElamrani/testdockerC.git
+cd testdockerC
+gcc main.c
+rm a.out
